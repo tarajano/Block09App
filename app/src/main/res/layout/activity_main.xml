@@ -7,13 +7,16 @@
     android:orientation="vertical"
     tools:context="com.example.tarajano.block09app.MainActivity">
 
-    <MultiAutoCompleteTextView
+    <EditText
         android:id="@+id/multiLineText"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_centerHorizontal="true"
-        android:hint="Type message"
-
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="#eaebed"
+        android:inputType="textMultiLine"
+        android:hint="Type message here."
         />
     <Button
         android:id="@+id/submitButton"
